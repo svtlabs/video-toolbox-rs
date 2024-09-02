@@ -2,6 +2,18 @@
 name = "video-toolbox-rs"
 version = "0.1.0"
 edition = "2021"
+categories = [
+  "external-ffi-bindings",
+  "multimedia",
+  "multimedia::video",
+  "os::macos-apis",
+]
+keywords = ["screencapture", "screencapturekit", "macos"]
+repository = "https://github.com/svtlabs/screencapturekit-rs"
+authors = ["Per Johansson <mail@perjohansson.net>"]
+homepage = "https://github.com/svtlabs"
+license = "MIT OR Apache-2.0"
+description = "A Rust library for working with video files."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
